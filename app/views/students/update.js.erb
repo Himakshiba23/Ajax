@@ -1,0 +1,2 @@
+$('#dynamic_student').html('<%= j render 'new' %>');
+$('#student_<%= @student.id%>').replaceWith("<%= j render @student %>");
